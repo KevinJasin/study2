@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.Chicken {
+    border: 5px solid black;
+    background-color: gray;
+    padding: 10px;
+    width: 20%;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .Chicken {
+        width: 50%;
+        padding: 20px;
+} 
+}
